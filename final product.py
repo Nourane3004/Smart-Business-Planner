@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 # Configuration OpenRouter
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "MYSTERY"
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
 # CSS personnalisé
@@ -1025,4 +1025,5 @@ def main():
                 """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
+
     main()
